@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.nav{
+	width: 100%;
+	height: 79px;
+	background-color:#ffffff;
+}
+.nav-a{
+	width: 100%;
+	height: 79px;
+	background-color:#ffffff;
+	position: fixed;
+}
+.nav-box{
+	width: 1170px;
+	height: 79px;
+	line-height: 79px;
+	margin: 0 auto;
+	
+}
+.nav-box .nav-list{
+	float: right;
+	width:602px;
+	height: 100%;
+
+}
+.nav>.nav-list>li,a{
+	height: 79px;
+	width: 56px;
+	text-align: center;
+	color: #526069;
+	font-size: 14px;
+	padding:0 15px;
+}
+.nav-box>.nav-list>li>a:hover{
+	color: #16b0dc
+}
+.nav-box>.nav-list>li{
+	float:left;
+}
+.nav-list>.impo>a{
+    color: #16b0dc;
+}
+
+.banner{
+	width: 100%;
+	height:120px;
+	background-color:#f1f1f1
+}
+.banner h1{
+	width: 200px;
+	height:62px;
+	color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 62px;
+    margin: 0 auto;
+    padding: 29px 0;
+}
+.body{
+	width: 100%;
+	height:897px;
+	padding: 30px 0;
+	background-color: #f1f1f1;
+}
+.body>.body-left{
+	height: 837px;
+	width: 720px;
+	background-color: #ffffff;
+	padding: 30px;
+	float: left;
+	margin-left: 90px;
+
+}
+.body-left>ul>li{
+	height:57px;
+	width: 718px;
+	padding: 10px 0; 	
+}
+.body-left>ul>li>.b-l-l{
+    height:53px;
+    width: 46px;
+    float: left;
+}
+.body-left>ul>li>.b-l-l>i{
+	 font-size: 36px;
+    color: #a3afb7
+}
+.body-left>ul>li>.b-l-r{
+	height: 53px;
+	width: 672px;
+	float: right;
+}
+.body-left>ul>li>.b-l-r{
+	height: 16px;
+	width: 672px;
+}
+.body-left>ul>li>.b-l-r>ul>li:nth-child(1){
+	float: left;
+	color:#37474f;
+	font-size: 14px;
+}
+.body-left>ul>li>.b-l-r>ul>li:nth-child(2){
+	float: right;
+	color:#a3afb7;
+	font-size: 12px;
+}
+.body-left>ul>li>p{
+	height: 43px;
+	width: 550px;
+	font-size: 14px;
+	color:#a3afb7;
+	line-height: 2.5;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.body-left>div>a{
+	display: inline-block;
+	height: 22px;
+	width: 688px;
+	padding: 6px 15px 6px 15px;
+	background-color: #e4eaec;
+}
+.body-left>div>a:hover{
+	background-color: #f3f7f9
+}
+.body>.body-right{
+	height: 408px;
+	width: 390px;
+	float: right;
+	margin-right: 59px
+}
+.body>.body-right>.body-right-box{
+	height: 348px;
+	width: 300px;
+	padding: 30px;
+	background-color: #ffffff
+}
+.body-right-box>ul>li>input{
+    border-radius: 4px;
+    border:1px solid #e4eaec;
+    font-size:14px;
+    color: #76838f;
+    padding: 6px 50px 6px 15px;
+    outline: none;
+}
+.body-right-box>ul>li>input{
+	width: 268px;
+	height: 22px;
+	padding: 6px 15px 6px 15px;
+	margin-bottom: 20px
+}
+.body-right-box>ul>.three>textarea{
+	width: 268px;
+	height: 90px;
+	padding: 6px 15px 6px 15px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+    border:1px solid #e4eaec;
+    font-size:14px;
+    color: #76838f;
+	resize: none;
+}
+.body-right-box>ul>.four>input{
+	width: 157px;
+	height: 22px;
+	padding: 6px 15px 6px 15px;
+	margin-bottom: 20px;
+	float: left;
+}
+.body-right-box>ul>.four>span{
+	height: 22px;
+	width: 79px;
+	padding: 6px 15px 6px 15px;
+	display: block;
+	float: right;
+	background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 4px
+}
+.body-right-box>ul>li>input:focus{
+	border-color: #16b0dc
+}
+.body-right-box>a{
+	display:inline-block;
+	height: 22px;
+	width: 268px;
+	padding: 6px 15px 6px 15px;
+	background-color:#358fe4;
+	color: #ffffff
+}
+.body-right-box>a:hover{
+	background-color: #89bceb
+}
+.main-footer{
+	height: 161px;
+	width: 100%;
+	padding-bottom: 20px;
+	background-color: #f5f5f5
+}
+.main-footer>.box2{
+	width: 100%;
+	height:0;
+	padding:10px 0;
+	border-top: 1px solid #f5f5f5;
+	background-color:#fff; 
+}
+.main-footer>.main-footer-a>i:nth-child(1){
+	color: #83b944;
+	font-size: 26px;
+}
+.main-footer>.main-footer-a>i{
+	color: #62a8ea;
+	font-size: 26px;
+	margin: 0 8px;
+}
+.main-footer-a{
+	height: 46px;
+	width: 100%;
+	padding: 5px 0;
+	margin-top: 10px;
+	line-height: 46px;
+	text-align: center;
+}
+.main-footer-b{
+	height: 75px;
+	width: 100%;
+}
+.main-footer-b>p{
+	text-align: center;
+}
+.main-footer-b>p>a{
+	margin-left: 20px;
+	color: #62a8ea
+}
+.main-footer-b>p{
+	color: #aaaaaa;
+	margin-bottom: 5px;
+	font-size: 14px
+}

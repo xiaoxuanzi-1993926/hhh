@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="touxiang" unicode="&#58995;" d="M512 864a480 480 0 1 1 0-960 480 480 0 0 1 0 960z m-3.072-168.192a144.64 144.64 0 1 0 0-289.28 144.64 144.64 0 0 0 0 289.28zM256 121.856c-1.472 148.224 70.976 240.256 161.792 276.416l93.248-155.584 98.24 152c87.616-38.4 157.248-129.344 158.656-272.96-161.088-63.872-330.88-68.48-511.936 0.128z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
